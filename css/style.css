@@ -1,0 +1,57 @@
+h1 {
+    font-size: 80px; 
+    color: #8E806A;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 60px; 
+    color: #C3B091;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+h3 {
+    font-size: 40px; 
+    color: #E4CDA7;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+li {
+    font-size: 25px;
+    
+}
+
+p {
+    font-size: 25px;
+}
+a:link, a:visited {
+    background-color: #3F4E4F;
+    color: white;
+    padding: 25px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: r#3F4E4F;
+  }
+
+  div{
+    align: center;
+  }
+
+
+  img {
+width: 400;
+height: 400;
+
+  }
+
+
+ 
