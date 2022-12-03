@@ -36,10 +36,14 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    justify-content:space-evenly;
+
+
   }
   
   a:hover, a:active {
     background-color: r#3F4E4F;
+    justify-content:space-evenly;
   }
 
   div{
@@ -54,4 +58,10 @@ height: 400;
   }
 
 
- 
+.navbar{
+    background-color: #E8DFCA;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
