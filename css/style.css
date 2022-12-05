@@ -65,3 +65,11 @@ height: 400;
    
 }
 
+#link{
+  text-decoration: none;
+  color:rgb(191, 41, 41);
+}
+
+a {
+  border-radius: 40px;
+}
