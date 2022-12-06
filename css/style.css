@@ -29,22 +29,9 @@ li {
 p {
     font-size: 25px;
 }
-a:link, a:visited {
-    background-color: #3F4E4F;
-    color: white;
-    padding: 25px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    justify-content:space-evenly;
 
-
-  }
   
-  a:hover, a:active {
-    background-color: r#3F4E4F;
-    justify-content:space-evenly;
-  }
+
 
   div{
     align: center;
@@ -58,18 +45,39 @@ height: 400;
   }
 
 
-.navbar{
-    background-color: #E8DFCA;
-    padding: 10px;
-    margin-bottom: 10px;
-   
-}
+
 
 #link{
   text-decoration: none;
   color:rgb(191, 41, 41);
 }
 
-a {
-  border-radius: 40px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #3D5656;
+  color: #CFFDE1;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 300ms all;
+}
+
+nav ul li a:hover {
+  background-color: #344D67;
 }
